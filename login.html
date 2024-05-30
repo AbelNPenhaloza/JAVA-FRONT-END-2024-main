@@ -24,7 +24,7 @@
     <title>Login</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg bg-success text-white fixed-top px-3">
+    <nav class="navbar navbar-expand-lg bg-success text-white px-3">
       <div class="container-fluid">
         <div class="d-flex">
           <a class="nav-link fw-bold" href="#">
@@ -35,26 +35,43 @@
       </div>
     </nav>
     <div class="">
-      <main class="container col-4 mt-5">
-        <section class="">
-          <form id="loginForm">
-            <h1 class="text-white">Iniciar Sesion</h1>
-            <div class="mb-3">
-              <label for="email" class="form-label text-white">Email address</label>
-              <input type="email" class="form-control" id="email" required/>
-              <div id="emailHelp" class="form-text text-white" >
-                We'll never share your email with anyone else.
+      <div class="">
+        <main class="container col-4 mt-5">
+          <section class="bg-primary">
+            <form id="loginForm">
+              <h1 class="text-white">Iniciar Sesion</h1>
+              <div class="mb-3">
+                <label for="email" class="form-label text-white"
+                  >Email address</label
+                >
+                <input type="email" class="form-control" id="email" required />
+                <div id="emailHelp" class="form-text text-white">
+                  We'll never share your email with anyone else.
+                </div>
               </div>
-            </div>
-            <div class="mb-3">
-              <label for="password" class="form-label text-white">Password</label>
-              <input type="password" class="form-control" id="password" required/>
-            </div>
-            
-            <button type="button" class="btn btn-danger mb-4" onclick="validar()">Iniciar Sesión</button>
-          </form>
-        </section>
-      </main>
+              <div class="mb-3">
+                <label for="password" class="form-label text-white"
+                  >Password</label
+                >
+                <input
+                  type="password"
+                  class="form-control"
+                  id="password"
+                  required
+                />
+              </div>
+
+              <button
+                type="button"
+                class="btn btn-danger mb-4"
+                onclick="validar()"
+              >
+                Iniciar Sesión
+              </button>
+            </form>
+          </section>
+        </main>
+      </div>
     </div>
     <footer class="bg-success text-white px-3">
       <nav class="">
