@@ -31,6 +31,27 @@ main{
 
 }
 
+.fondoLogin{
+    width: 80%;
+    padding: 20px;
+    backdrop-filter: blur(10px);
+    text-align: center;
+    border: solid 3px black;
+    border-radius: 30px;
+
+}
+
+.seccionFormulario{
+    width: 100%;
+    padding: 30px;
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .marco-titulo{
     background: linear-gradient(180deg, rgba(6,6,6,0.9529061624649859) 0%, rgba(6,6,6,0.31985294117647056) 79%);
    
@@ -59,11 +80,13 @@ main{
     justify-content: center;
     flex-wrap: wrap;
     gap:60px;
+
 }
 .peliculas{
     display: flex;
     justify-content: center;
     gap:60px;
+    
 }
 
 
